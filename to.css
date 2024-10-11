@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#task-form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    background-color: cyan;
+}
+
+#task-list, #completed-list {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task.high {
+    background-color: #f85f5f;
+}
+
+.task.medium {
+    background-color: #fcfc4f;
+}
+
+.task.low {
+    background-color: #5bfd5b;
+}
+
+.task.deadline-approaching {
+    background-color: #ffcc00;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+h2{
+    padding-left: 30px;
+}
+h1{
+    padding-left: 470px;
+}
