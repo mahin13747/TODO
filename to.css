@@ -28,7 +28,7 @@ body {
 }
 
 .task.high {
-    background-color: #f85f5f;
+    background-color: #5f76f8;
 }
 
 .task.medium {
@@ -40,7 +40,7 @@ body {
 }
 
 .task.deadline-approaching {
-    background-color: #ffcc00;
+    background-color: red;
 }
 
 .completed-task {
